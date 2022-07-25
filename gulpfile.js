@@ -33,7 +33,7 @@ function watcher() {
 const mainTask = gulp.parallel(html, scss, js, images, sprite, copyWoff, favicon);
 
 const dev = gulp.series(reset, mainTask, gulp.parallel(watcher, server));
-const buld = gulp.series(reset, mainTask);
+const buld = gulp.series(reset, mainTask, gulp.parallel(watcher, server));
 const deployZIP = gulp.series(reset, mainTask, zip);
 const deployFTP = gulp.series(reset, mainTask, ftp);
 const deployCssFTP = gulp.series(reset, mainTask, ftpcss);
