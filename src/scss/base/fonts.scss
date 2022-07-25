@@ -8,12 +8,22 @@ b. Наименование файла шрифта (src/fonts/font-name.{woff, 
 c. Толщина шрифта
 ***********************************************************************/
 
-// @include font-face('FontName', 'FontName-Thin', 100);           // Thin, Hairline
-// @include font-face('FontName', 'FontName-ExtraLight', 200);     // Extra Light, Ultra Light
-// @include font-face('FontName', 'FontName-Light', 300);          // Light
-// @include font-face('FontName', 'FontName-Regular', 400);        // Regular, Normal
-// @include font-face('FontName', 'FontName-Medium', 500);         // Medium
-// @include font-face('FontName', 'FontName-SemiBold', 600);       // Semi Bold, Demi Bold
-// @include font-face('FontName', 'FontName-Bold', 700);           // Bold
-// @include font-face('FontName', 'FontName-ExtraBold', 800);      // Extra Bold, Ultra Bold
-// @include font-face('FontName', 'FontName-Black', 900);          // Black, Heavy
+
+// Thin, Hairline
+// @include font-face('FontName', 'FontName-Thin', 100);
+// Extra Light, Ultra Light
+// @include font-face('FontName', 'FontName-ExtraLight', 200);
+// Light
+// @include font-face('FontName', 'FontName-Light', 300);
+// Regular, Normal
+@include font-face('Roboto', 'Roboto-Regular', 400);
+// Medium
+// @include font-face('FontName', 'FontName-Medium', 500);
+// Semi Bold, Demi Bold
+// @include font-face('FontName', 'FontName-SemiBold', 600);
+// Bold
+// @include font-face('FontName', 'FontName-Bold', 700);
+// Extra Bold, Ultra Bold
+// @include font-face('FontName', 'FontName-ExtraBold', 800);
+// Black, Heavy
+// @include font-face('FontName', 'FontName-Black', 900);
