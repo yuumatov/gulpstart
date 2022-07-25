@@ -7,12 +7,27 @@ button {
   color: $c-black;
 }
 
-body {
-  
+a {
+  color: $c-black;
+  text-decoration: none;
+
+  @include any-hover {
+    &:hover {
+      color: $c-accent;
+    }
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
   overflow: hidden;
+  padding: 100px 0;
+  flex: 1 1 auto;
 }
 
 .container {

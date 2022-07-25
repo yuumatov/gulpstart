@@ -1,0 +1,42 @@
+.burger {
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+    background-color: #777;
+
+    @include media-max($phablet) {
+        display: flex;
+    }
+
+    span {
+        width: 20px;
+        height: 2px;
+        background-color: #555;
+        transition: all $t-base;
+
+        &:nth-child(2) {
+            margin: 4px 0;
+            opacity: 1;
+        }
+    }
+
+    &_active {
+        span {
+            &:nth-child(1) {
+                transform: translateY(6px) rotate(45deg);
+            }
+    
+            &:nth-child(2) {
+                opacity: 0;
+            }
+    
+            &:nth-child(3) {
+                transform: translateY(-6px) rotate(-45deg);
+            }
+        }
+    }
+}
