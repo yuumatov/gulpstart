@@ -1,0 +1,23 @@
+body,
+input,
+textarea,
+button {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: $c-black;
+}
+
+body {
+  
+}
+
+.main {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: $w-container;
+  padding: 0 20px;
+  margin: 0 auto;
+}

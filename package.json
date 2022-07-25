@@ -1,0 +1,43 @@
+{
+  "name": "gulp-start",
+  "version": "1.2.0",
+  "description": "Gulp Start from Yuumatov",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build --production",
+    "zip": "gulp zip --production",
+    "ftp": "gulp ftp --production"
+  },
+  "author": "Yuumatov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-sass": "latest",
+    "gulp-svg-sprite": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-typograf": "latest",
+    "gulp-util": "latest",
+    "gulp-version-number": "latest",
+    "gulp-zip": "latest",
+    "sass": "latest",
+    "vinyl-ftp": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

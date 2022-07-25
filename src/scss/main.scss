@@ -1,0 +1,22 @@
+// Вспомогательные стили
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+
+// Вендорные стили
+// @import './vendors/';
+
+// Базовые стили
+@import './base/reset.scss';
+@import './base/fonts.scss';
+@import './base/base.scss';
+
+// Стили блоков
+// @import './components/';
+
+// Стили основных элементов
+@import './layout/header/header.scss';
+
+@import './layout/footer/footer.scss';
+
+// Стили страниц
+// @import './pages/';
