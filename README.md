@@ -1,4 +1,4 @@
-# Gulp Start
+# Gulp Start from Yuumatov
 ## Команды сборки
 Установить зависимости
 
@@ -21,3 +21,4 @@
 Настройки FTP находятся в файле `./gulp/config/ftp.js`
 
     npm run ftp
+
