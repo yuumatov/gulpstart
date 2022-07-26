@@ -18,6 +18,7 @@ import { images } from './gulp/task/images.js';
 import { sprite } from './gulp/task/sprite.js';
 import { fonts } from './gulp/task/fonts.js';
 import { favicon } from './gulp/task/favicons.js';
+import { other } from './gulp/task/other.js';
 import { server } from './gulp/task/server.js';
 import { zip } from './gulp/task/zip.js';
 import { ftp } from './gulp/task/ftp.js';
@@ -30,7 +31,7 @@ function watcher() {
   gulp.watch(path.watch.sprite, sprite);
 }
 
-const mainTask = gulp.parallel(html, scss, js, images, sprite, fonts, favicon);
+const mainTask = gulp.parallel(html, scss, js, images, sprite, fonts, favicon, other);
 
 const dev = gulp.series(reset, mainTask, gulp.parallel(watcher, server));
 const buld = gulp.series(reset, mainTask, gulp.parallel(watcher, server));
