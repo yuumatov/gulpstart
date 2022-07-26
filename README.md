@@ -22,10 +22,21 @@
 
     npm run ftp
 
-## Режимы сборки
-### Dev
-
-### Build
+## Последовательность сборки
+Последовательно выполняет задачи:
+ 1. Очищает папку проекта
+ 2. Параллельно выполняет задачи:
+	1. HTML 
+	2. Стили
+	3. JavaScript
+	4. Изображения
+	5. SVG спрайты
+	6. Шрифты
+	7. Фавиконки
+	8.  Копирование файлов
+3. Параллельно выполняет задачи:
+	1. Запускает слежку за файлами
+	2. Запускает локальный сервер
 
 ## Задачи сборки
 Задачи сборки расположены в папке `./gulp/task/`
@@ -64,6 +75,29 @@
         <use xlink:href="img/sprite.svg#nameSVG"></use>
     </svg>
 
+### Шрифты `./gulp/task/fonts.js`
+Копирует шрифты формата `woff, woff2` из папки `./src/fonts/` в папку `./build/fonts/`
+
 ### Фавиконки `./gulp/task/favicons.js`
 Копирует заранее подготовленные файлы иконок в `./build/favicons/`
 [Ссылка](https://www.figma.com/file/2MR38RAGyGH0QVNg7MTEaZ/Favicon-for-Gulp-Start?node-id=0:1) на заготовку в figma
+
+### Копирование файлов `./gulp/task/other.js`
+Копирует файлы `favicon.ico, manifest.webmanifest, robots.txt` из из папки `./src/` в папку `./build/`
+
+### Локальный сервер `./gulp/task/server.js`
+Запускает локальный сервер с помощью плагина `browser-sync`
+
+    {
+	    server: {
+		    baseDir: app.path.build.html,	// Директория запуска сервера
+		    index: "list.html"				// Стартовый файл
+	    }
+	}
+
+### Создание архива `./gulp/task/zip.js`
+Создает ZIP архив проекта в папке `./`
+
+### Загрузка на хостинг `./gulp/task/ftp.js`
+Загрузить проект на хостинг по FTP (**режим build**)
+Настройки FTP находятся в файле `./gulp/config/ftp.js`
