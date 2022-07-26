@@ -91,7 +91,7 @@
     {
 	    server: {
 		    baseDir: app.path.build.html,	// Директория запуска сервера
-		    index: "list.html"				// Стартовый файл
+		    index: "list.html"			// Стартовый файл
 	    }
 	}
 
