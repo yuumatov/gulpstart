@@ -1,2 +1,2 @@
 // jQuery UI
-import './vendors/jquery-ui.min.js';
+// import './vendors/jquery-ui.min.js';
