@@ -1,0 +1,21 @@
+.tabs {
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    &__tab {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__anchor {
+
+    }
+
+    &__panel {
+        
+    }
+}

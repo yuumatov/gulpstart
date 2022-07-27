@@ -3,7 +3,8 @@
 @import './helpers/mixins.scss';
 
 // Вендорные стили
-// @import './vendors/';
+// jQuery UI
+// @import './vendors/jquery-ui.scss';
 
 // Базовые стили
 @import './base/reset.scss';
@@ -11,7 +12,8 @@
 @import './base/base.scss';
 
 // Стили блоков
-// @import './components/';
+// Табы
+@import './components/tabs.scss';
 
 // Стили основных элементов
 @import './layout/header/header.scss';

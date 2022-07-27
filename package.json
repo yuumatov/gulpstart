@@ -1,5 +1,5 @@
 {
-  "name": "gulp-start",
+  "name": "gulpstart",
   "version": "1.2.0",
   "description": "Gulp Start from Yuumatov",
   "main": "index.js",
@@ -27,7 +27,6 @@
     "gulp-plumber": "latest",
     "gulp-sass": "latest",
     "gulp-svg-sprite": "latest",
-    "gulp-ttf2woff2": "latest",
     "gulp-typograf": "latest",
     "gulp-util": "latest",
     "gulp-version-number": "latest",
