@@ -5,6 +5,8 @@
 // Вендорные стили
 // jQuery UI
 // @import './vendors/jquery-ui.scss';
+// Swiper
+@import './vendors/swiper.scss';
 
 // Базовые стили
 @import './base/reset.scss';
@@ -16,6 +18,8 @@
 // @import './components/tabs.scss';
 // Аккордеон
 // @import './components/accordion.scss';
+// Слайдер
+@import './components/slider.scss';
 
 // Стили основных элементов
 @import './layout/header/header.scss';

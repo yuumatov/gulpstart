@@ -1,6 +1,8 @@
 // Меню сайта
-import './components/menu.js'
+import './components/menu.js';
 // Табы (зависит от jQuery UI)
-// import './components/tabs.js'
+// import './components/tabs.js';
 // Аккордеон (зависит от jQuery UI)
-// import './components/accordion.js'
+// import './components/accordion.js';
+// Слайдер swiper
+import './components/slider.js';
