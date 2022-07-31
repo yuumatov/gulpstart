@@ -5,4 +5,4 @@ import './components/menu.js';
 // Аккордеон (зависит от jQuery UI)
 // import './components/accordion.js';
 // Слайдер swiper
-import './components/slider.js';
+// import './components/slider.js';
