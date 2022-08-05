@@ -6,3 +6,9 @@ import './components/menu.js';
 // import './components/accordion.js';
 // Слайдер swiper
 // import './components/slider.js';
+// Селект
+// import './components/select.js';
+// Модальное окно
+// import './components/modal.js';
+// Маска для инпута
+// import './components/inputmask.js';
