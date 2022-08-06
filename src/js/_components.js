@@ -12,3 +12,5 @@ import './components/menu.js';
 // import './components/modal.js';
 // Маска для инпута
 // import './components/inputmask.js';
+// Всплывающая подсказка
+import './components/tooltip.js';
