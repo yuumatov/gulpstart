@@ -22,8 +22,8 @@ export const path = {
 		img: [`${srcFolder}/img/**/*.{jpg,jpeg,png,webp,svg,gif}`, `!${srcFolder}/img/sprite/**/*.*`],
 		sprite: `${srcFolder}/img/sprite/*.svg`,
 		favicon: `${srcFolder}/favicons/**/*.*`,
-		vendorsCss: `${srcFolder}/vendors/css/*.css`,
-		vendorsJs: `${srcFolder}/vendors/js/*.js`,
+		vendorsCss: `${srcFolder}/vendors/css/*.{css,map}`,
+		vendorsJs: `${srcFolder}/vendors/js/*.{js,map}`,
 		other: [`${srcFolder}/favicon.ico`, `${srcFolder}/manifest.webmanifest`, `${srcFolder}/robots.txt`]
 	},
 	watch: {
@@ -32,7 +32,7 @@ export const path = {
 		js: `${srcFolder}/js/**/*.js`,
 		img: [`${srcFolder}/img/**/*.{jpg,jpeg,png,webp,svg,gif}`, `!${srcFolder}/img/sprite/**/*.*`],
 		sprite: `${srcFolder}/img/sprite/*.svg`,
-		vendors: `${srcFolder}/vendors/**/*.{css,js}`,
+		vendors: `${srcFolder}/vendors/**/*.*`,
 	},
 	clean: buildFolder,
 	srcFolder: srcFolder,

@@ -1,9 +1,4 @@
-import Swiper, { Navigation, Pagination } from "swiper";
-
 const slider = new Swiper('.swiper', {
-    // Модули
-    modules: [Navigation, Pagination],
-
     // Основные настройки
     slidesPerView: 1,
 

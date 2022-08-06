@@ -1,6 +1,5 @@
-import $ from "jquery";
-import Choices from "choices.js";
-
 $('.select').each(function() {
-    new Choices($(this)[0]);
+    new Choices($(this)[0], {
+        allowHTML: true
+    });
 });
