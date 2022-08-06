@@ -35,5 +35,8 @@
     "vinyl-ftp": "latest",
     "webpack": "latest",
     "webpack-stream": "latest"
+  },
+  "dependencies": {
+
   }
 }

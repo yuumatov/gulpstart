@@ -1,30 +1,29 @@
-// Вспомогательные стили
+/* Вспомогательные стили */
 @import './helpers/variables.scss';
 @import './helpers/mixins.scss';
 
-// Базовые стили
+/* Базовые стили */
 @import './base/reset.scss';
 @import './base/fonts.scss';
 @import './base/base.scss';
 
-// Стили блоков
-// Табы
-// @import './components/tabs.scss';
-// Аккордеон
-// @import './components/accordion.scss';
-// Слайдер
-// @import './components/slider.scss';
-// Селект
-// @import './components/select.scss';
-// Виджет подсказка
+/* Стили блоков */
+/* Табы */
+/* @import './components/tabs.scss'; */
+/* Аккордеон */
+/* @import './components/accordion.scss'; */
+/* Слайдер */
+/* @import './components/slider.scss'; */
+/* Селект */
+/* @import './components/select.scss'; */
+/* Виджет подсказка */
 @import './components/tooltip.scss';
 
-// Стили основных элементов
+/* Стили основных элементов */
 @import './layout/header/header.scss';
 @import './layout/header/header-nav.scss';
 @import './layout/header/burger.scss';
-
 @import './layout/footer/footer.scss';
 
-// Стили страниц
-// @import './pages/';
+/* Стили страниц */
+/* @import './pages/'; */

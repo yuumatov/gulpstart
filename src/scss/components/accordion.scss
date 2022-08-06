@@ -1,21 +1,21 @@
 .accordion {
-    &__header {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
+  &__header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 
-        &_active {
-            .accordion__indicator {
-                background-color: green;
-            }
-        }
+    &_active {
+      .accordion__indicator {
+        background-color: green;
+      }
     }
+  }
 
-    &__indicator {
-        width: 30px;
-        height: 30px;
-        background-color: red;
-    }
+  &__indicator {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+  }
 }
