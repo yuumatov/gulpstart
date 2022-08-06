@@ -9,6 +9,6 @@ import './components/menu.js';
 // Селект
 // import './components/select.js';
 // Модальное окно
-// import './components/modal.js';
+import './components/modal.js';
 // Маска для инпута
 // import './components/inputmask.js';

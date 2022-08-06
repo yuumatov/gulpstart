@@ -11,7 +11,9 @@ export const path = {
 		js: `${buildFolder}/js/`,
 		img: `${buildFolder}/img/`,
 		fonts: `${buildFolder}/fonts/`,
-		favicon: `${buildFolder}/favicons/`
+		favicon: `${buildFolder}/favicons/`,
+		vendorsCss: `${buildFolder}/css/`,
+		vendorsJs: `${buildFolder}/js/`,
 	},
 	src: {
 		html: `${srcFolder}/*.html`,
@@ -20,6 +22,8 @@ export const path = {
 		img: [`${srcFolder}/img/**/*.{jpg,jpeg,png,webp,svg,gif}`, `!${srcFolder}/img/sprite/**/*.*`],
 		sprite: `${srcFolder}/img/sprite/*.svg`,
 		favicon: `${srcFolder}/favicons/**/*.*`,
+		vendorsCss: `${srcFolder}/vendors/css/*.css`,
+		vendorsJs: `${srcFolder}/vendors/js/*.js`,
 		other: [`${srcFolder}/favicon.ico`, `${srcFolder}/manifest.webmanifest`, `${srcFolder}/robots.txt`]
 	},
 	watch: {
@@ -27,7 +31,8 @@ export const path = {
 		scss: `${srcFolder}/scss/**/*.scss`,
 		js: `${srcFolder}/js/**/*.js`,
 		img: [`${srcFolder}/img/**/*.{jpg,jpeg,png,webp,svg,gif}`, `!${srcFolder}/img/sprite/**/*.*`],
-		sprite: `${srcFolder}/img/sprite/*.svg`
+		sprite: `${srcFolder}/img/sprite/*.svg`,
+		vendors: `${srcFolder}/vendors/**/*.{css,js}`,
 	},
 	clean: buildFolder,
 	srcFolder: srcFolder,
