@@ -1,43 +1,43 @@
 .tooltip {
-  margin: 20px;
-  width: 30px;
-  height: 30px;
-  background-color: #333333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $c-white;
-  border-radius: 50%;
-  user-select: none;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $c-white;
+    border-radius: 50%;
+    user-select: none;
 }
 
-.tippy-box[data-theme~="white"] {
+.tippy-box[data-theme="white"] {
     background-color: $c-white;
     border: 1px solid $c-black;
     color: $c-black;
-    padding: 0px;
+    padding: 0;
     font-size: 16px;
 }
 
-.tippy-box[data-theme~='white'][data-placement^='top'] > .tippy-arrow::before {
+.tippy-box[data-theme='white'][data-placement^='top'] > .tippy-arrow::before {
     border-top-color: $c-black;
     bottom: 0;
     transform: translateY(100%);
 }
 
-.tippy-box[data-theme~='white'][data-placement^='bottom'] > .tippy-arrow::before {
+.tippy-box[data-theme='white'][data-placement^='bottom'] > .tippy-arrow::before {
     border-bottom-color: $c-black;
     top: 0;
     transform: translateY(-100%);
 }
 
-.tippy-box[data-theme~='white'][data-placement^='left'] > .tippy-arrow::before {
+.tippy-box[data-theme='white'][data-placement^='left'] > .tippy-arrow::before {
     border-left-color: $c-black;
     right: 0;
     transform: translateX(100%);
 }
 
-.tippy-box[data-theme~='white'][data-placement^='right'] > .tippy-arrow::before {
+.tippy-box[data-theme='white'][data-placement^='right'] > .tippy-arrow::before {
     border-right-color: $c-black;
     left: 0;
     transform: translateX(-100%);
