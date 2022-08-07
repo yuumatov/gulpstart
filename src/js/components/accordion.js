@@ -1,7 +1,5 @@
 // Документация https://api.jqueryui.com/accordion/
 
-import $ from 'jquery';
-
 $(function () {
     $('#accordion').accordion({
         collapsible: true,

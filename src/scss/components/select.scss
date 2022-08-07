@@ -1,0 +1,13 @@
+.select-default {
+    // Убираем стандарную стрелку
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    padding: 8px 14px;
+    border: 2px solid #999;
+    border-radius: 6px;
+    padding-right: 30px;
+    background-image: url("./../img/icons/select-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
