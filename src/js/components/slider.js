@@ -1,3 +1,5 @@
+// Документация https://swiperjs.com/swiper-api
+
 const slider = new Swiper('.swiper', {
     // Основные настройки
     slidesPerView: 1,

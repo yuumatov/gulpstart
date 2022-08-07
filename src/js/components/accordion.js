@@ -1,6 +1,8 @@
+// Документация https://api.jqueryui.com/accordion/
+
 import $ from 'jquery';
 
-$(function() {
+$(function () {
     $('#accordion').accordion({
         collapsible: true,
         heightStyle: "content",

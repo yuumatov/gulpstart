@@ -1,5 +1,7 @@
+// Документация https://api.jqueryui.com/tabs/
+
 import $ from 'jquery';
 
-$(function() {
+$(function () {
     $('#tabs').tabs();
 });
