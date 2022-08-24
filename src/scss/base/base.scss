@@ -11,10 +11,8 @@ a {
   color: $c-black;
   text-decoration: none;
 
-  @include any-hover {
-    &:hover {
-      color: $c-accent;
-    }
+  &:hover {
+    color: $c-accent;
   }
 }
 

@@ -9,11 +9,14 @@ $t-base: 0.2s ease-in-out;
 // Шрифты
 $f-roboto: 'Roboto';
 
-// Медиавыражения
+// Размеры медиазапросов
 $laptop: 1279px;
-$tablet: 1023px;
+$tablet: 999px;
 $phablet: 767px;
 $mobile: 479px;
 
 // Ширина контента
-$w-container: 1320px;
+$w-container: 1260px;
+
+// Внутренний отступ контейнера
+$p-container: 20px;
